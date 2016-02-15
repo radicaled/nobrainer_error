@@ -1,0 +1,6 @@
+database:
+  image: rethinkdb:2.2.2
+  ports:
+    - "28015:28015"
+    - "9090:8080"
+
